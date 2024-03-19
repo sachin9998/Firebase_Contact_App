@@ -71,11 +71,11 @@ function App() {
         </div>
 
         <div className="mt-4 flex flex-col gap-3">
-          {
+          {/* {
             contacts.map((contact) => (
               <ContactCard key={contact.id} contact={contact} />
             ))
-          }
+          } */}
         </div>
 
       </div>
