@@ -7,7 +7,6 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import { useEffect, useState } from "react";
 import { collection, getDocs } from 'firebase/firestore'
 import { db } from "./config/firebase";
-// import { keys } from "@material-ui/core/styles/createBreakpoints";
 import ContactCard from "./components/ContactCard";
 import AddAndUpdateContact from "./components/AddAndUpdateContact";
 

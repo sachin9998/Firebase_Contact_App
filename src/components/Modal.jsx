@@ -11,7 +11,8 @@ const Modal = ({ onClose, isOpen, children }) => {
                         <div className="flex justify-end">
                             <AiOutlineClose onClick={onClose} className="text-2xl self-end cursor-pointer" />
                         </div>
-                     </div>
+                        {children}
+                    </div>
 
                     <div className=" absolute top-0 h-screen backdrop-blur w-screen z-40" onClick={onClose}>
                     </div>
@@ -22,4 +23,4 @@ const Modal = ({ onClose, isOpen, children }) => {
     );
 };
 
-export default Modal
+export default Modal;
