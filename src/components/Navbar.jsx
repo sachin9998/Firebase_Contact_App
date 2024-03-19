@@ -1,14 +1,10 @@
-
-
 const Navbar = () => {
-    return (
-        <div className="my-4 h-[60px] bg-white rounded-lg flex justify-center items-center gap-3">
-                
-            <img src="/firebase.svg"></img>
-            <h1 className="font-medium text-xl">Firebase Contact App</h1>
-
-        </div>
-    )
-}
+  return (
+    <div className="my-4 flex h-[60px] items-center justify-center gap-2 rounded-lg bg-white text-xl font-medium">
+      <img src="/firebase.svg" />
+      <h1>Firebase Contact App</h1>
+    </div>
+  );
+};
 
 export default Navbar;
