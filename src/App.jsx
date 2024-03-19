@@ -12,7 +12,7 @@ import AddAndUpdateContact from "./components/AddAndUpdateContact";
 
 function App() {
 
-  const [contacts, setContacts] = useState();
+  const [contacts, setContacts] = useState([]);
   const [isOpen, setOpen] = useState(false);
 
   const onOpen = () => {
@@ -45,7 +45,7 @@ function App() {
     };
 
     getContacts();
-  }, []);
+  },);
 
 
   return (
