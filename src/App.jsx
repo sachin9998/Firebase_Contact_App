@@ -7,9 +7,8 @@ import { AiFillPlusCircle } from "react-icons/ai";
 import { useEffect, useState } from "react";
 import { collection, getDocs } from 'firebase/firestore'
 import { db } from "./config/firebase";
-import { keys } from "@material-ui/core/styles/createBreakpoints";
+// import { keys } from "@material-ui/core/styles/createBreakpoints";
 import ContactCard from "./components/ContactCard";
-import Modal from "./components/Modal";
 import AddAndUpdateContact from "./components/AddAndUpdateContact";
 
 function App() {
@@ -71,11 +70,11 @@ function App() {
         </div>
 
         <div className="mt-4 flex flex-col gap-3">
-          {/* {
+          {
             contacts.map((contact) => (
               <ContactCard key={contact.id} contact={contact} />
             ))
-          } */}
+          }
         </div>
 
       </div>
